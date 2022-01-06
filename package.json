@@ -1,4 +1,5 @@
 {
+  "homepage": "https://raj-savsani.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "as": "^0.4.1",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "kursor": "^0.1.6",
     "material-design-icons-iconfont": "^6.1.0",
     "react": "^17.0.2",
@@ -28,6 +30,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
