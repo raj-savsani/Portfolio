@@ -32,6 +32,6 @@ This profile is designed and developed by [Raj Savsani](https://github.com/raj-s
 
 ![]()
 
-![Screenshot 2021-09-17 112101]()
+![]()
 
   
