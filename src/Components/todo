@@ -1,0 +1,7 @@
+add display overlay for projects
+    - show details on hover(pc)
+    -for mobile, add a div or something.
+
+add watch demo button
+    -on overlay(pc)
+    -on Name div(mobile)
