@@ -24,7 +24,12 @@ export default function About() {
                 }}
               />
             </Para>
-            <Link to="footer" smooth={true} duration={1500}>
+            <Link
+              style={{ width: "fit-content" }}
+              to="footer"
+              smooth={true}
+              duration={1500}
+            >
               <ContactBtn>Contact me</ContactBtn>
             </Link>
           </Left>
