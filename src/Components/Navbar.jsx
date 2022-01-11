@@ -79,6 +79,10 @@ const Logo = styled.div`
     cursor: pointer;
     color: #0f1108;
   }
+  :hover {
+    background: #e7ffed;
+    transition: 0.4s;
+  }
   @media (max-width: 768px) {
     span:nth-child(1) {
       font-weight: bold;
@@ -153,7 +157,7 @@ const Resume = styled.div`
   :hover {
     font-weight: bold;
   }
-  a {
+  a{
     text-decoration: none;
     color: #0f1108;
   }

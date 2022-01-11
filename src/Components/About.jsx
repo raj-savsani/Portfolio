@@ -34,7 +34,7 @@ export default function About() {
             </Link>
           </Left>
           <Right>
-            {/* <img src="dpkbg.png" alt="" /> */}
+            <img src="profile_pic.jfif" alt="" />
             {/* <img src="placeholder.svg" alt="" /> */}
           </Right>
         </Cont>
@@ -169,6 +169,7 @@ const Right = styled.div`
   img {
     width: 100%;
     padding: 2rem;
+    border-radius:50%
   }
 `;
 const AboutCont = styled.div`

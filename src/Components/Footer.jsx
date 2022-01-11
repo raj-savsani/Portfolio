@@ -18,9 +18,9 @@ export default function Footer() {
                 <FooterCont>
                     <IconsCont>
                         <div onClick={()=>setShow(!show)} ><EmailIcon className="icon" /></div>
-                        <a href="https://twitter.com/raj_savsani"><TwitterIcon className="icon" /></a>
-                        <a href="https://www.linkedin.com/in/raj-savsani"><LinkedInIcon className="icon" /></a>
-                        <a href="https://github.com/raj-savsani"><GitHubIcon className="icon" /></a>
+                        <a target="_blank" rel="noreferrer" href="https://twitter.com/raj_savsani"><TwitterIcon className="icon" /></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/raj-savsani"><LinkedInIcon className="icon" /></a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/raj-savsani"><GitHubIcon className="icon" /></a>
                     </IconsCont>
                     <HrLine/>
                     <FooterLine>
