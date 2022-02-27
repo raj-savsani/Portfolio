@@ -6,7 +6,7 @@ export default function ContactUs() {
   const [send, setSend] = useState("Send");
 
   const form = useRef();
-  console.log('form:', form)
+  // console.log('form:', form)
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,7 +21,7 @@ export default function ContactUs() {
       .then(
         (result) => {
           setSend("Thanks");
-          console.log(result.text);
+          // console.log(result.text);
         },
         (error) => {
           console.log(error.text);
